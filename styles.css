@@ -166,79 +166,92 @@ select {
     display: flex;
     justify-content: space-between;
     border-radius: 16px;
-    
-}
-.section1-content {
-    width : 50%;
-} 
 
- ul > li{
+}
+
+.section1-content {
+    width: 50%;
+}
+
+ul>li {
     color: gray;
 }
-ul > li{
+
+ul>li {
     margin-left: 30px;
 }
 
 /* section2 */
-.section2{
+.section2 {
     max-width: 1170px;
     margin: 5rem auto 3rem;
     text-align: center;
     display: grid;
     place-items: center;
 }
-.section2-content{
+
+.section2-content {
     max-width: 640px;
 }
 
-.image-container{
- max-width: 1170px;
- margin: 0px auto;
- margin-bottom: 100px;
+.image-container {
+    max-width: 1170px;
+    margin: 0px auto;
+    margin-bottom: 100px;
 }
-.row1{
+
+.row1 {
     display: flex;
     gap: 24px;
     margin: 24px auto;
     justify-content: space-between;
     border-radius: 8px;
 }
-.item1, .item2{
+
+.item1,
+.item2 {
     width: 49%;
     border-radius: 8px;
 }
-.row2{
+
+.row2 {
     display: flex;
     gap: 24px;
     margin: 24px auto;
     border-radius: 8px;
 }
-.item3{
+
+.item3 {
     width: 53%;
     border-radius: 8px 8px 8px 8px;
 }
-.item5{
-    width: 38%; 
-    border-radius: 8px;
-}
-.item4{
-   width: 67% ;
+
+.item5 {
+    width: 38%;
     border-radius: 8px;
 }
 
-.row3{
+.item4 {
+    width: 67%;
+    border-radius: 8px;
+}
+
+.row3 {
     display: flex;
     gap: 24px;
 }
-.item6{
-    width: 45%; 
+
+.item6 {
+    width: 45%;
     border-radius: 8px;
 }
-.item7{
-   width: 65% ;
+
+.item7 {
+    width: 65%;
     border-radius: 8px;
 }
-  .item1{
+
+.item1 {
     background-image: url("./Images/Rectangle\ 5.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,8 +261,9 @@ ul > li{
     justify-content: center;
     align-items: center;
     color: var(--white);
-  }
-  .item2{
+}
+
+.item2 {
     background-image: url("./Images/Rectangle\ 8.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,8 +273,9 @@ ul > li{
     justify-content: center;
     align-items: center;
     color: var(--white);
-  }
-  .item3{
+}
+
+.item3 {
     background-image: url("./Images/Rectangle\ 61.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -270,8 +285,9 @@ ul > li{
     justify-content: center;
     align-items: center;
     color: var(--white);
-  }
-  .item4{
+}
+
+.item4 {
     background-image: url("./Images/Rectangle\ 71.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,8 +297,9 @@ ul > li{
     justify-content: center;
     align-items: center;
     color: var(--white);
-  }
-  .item5{
+}
+
+.item5 {
     background-image: url("./Images/Rectangle\ 91.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -292,8 +309,9 @@ ul > li{
     justify-content: center;
     align-items: center;
     color: var(--white);
-  }
-  .item6{
+}
+
+.item6 {
     background-image: url("./Images/Rectangle\ 11.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -303,9 +321,9 @@ ul > li{
     justify-content: center;
     align-items: center;
     color: var(--white);
-  }
+}
 
-  .item7{
+.item7 {
     background-image: url("./Images/Rectangle\ 10.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,5 +333,47 @@ ul > li{
     justify-content: center;
     align-items: center;
     color: var(--white);
-  }
- 
+}
+
+.cards-con {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+.cards {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.cards>h1 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--primary-black);
+}
+
+.card1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card2{
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.card3{
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+
+.r1{
+    display: flex;
+    gap: 24px;
+}
+.r2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px auto;
+}
