@@ -576,3 +576,30 @@ footer{
 .overlay1 {
     transform: rotate(-19deg);
 }
+/* extra */
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: -4px 4px rgba(128, 128, 128, 0.193) ;
+    background-color: var(--primary);
+    position: absolute;
+    left: 0;
+    animation: move 4s linear infinite;
+    margin: 1rem;
+}
+
+.line {
+    border-bottom: 2px solid rgb(147, 147, 147);
+    position: relative;
+    top: 67px;
+}
+
+@keyframes move{
+    0% {
+        left: 0;
+    }
+    100% {
+        left: calc(100% - 100px);
+    }
+}

@@ -100,7 +100,8 @@
         min-width: 390;
         width: 90%;
         display: block;
-        margin: 26px auto;
+        padding-top: 1rem;
+        margin-bottom: 24px;
     }
 
     .section1-content {
