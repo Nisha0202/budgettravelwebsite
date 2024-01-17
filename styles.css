@@ -492,26 +492,40 @@ footer{
 .container{
     position: relative;
     z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container .video-p > iframe {
     width: 600px;
-    height: 440px;
+    height: 450px;
+    background-color: rgba(62, 62, 62, 0.618);
     border-radius: 16px;
     border: 2px solid black;
     margin: 12px 0px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 0;
+    
 }
 .overlay {
-    background-color: #2c2c2ce9;
-    width: 300px;
+    width: 100%;
+    height: 90%;
+    place-items: center;
     color: var(--white);
     position:absolute;
-    top: 30%;
-    right: 25%;
+    top: 5%;
+    right: 0%;
     z-index:1;
+    background-color: #1313187a;
+    padding: 2rem;
     text-align: center;
-    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
 }
 
 .bonus3{
