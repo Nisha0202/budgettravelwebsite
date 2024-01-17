@@ -203,9 +203,10 @@
 
     footer {
         background: rgba(54, 54, 54, 0.05);
-        width: 100vw;
-        margin: auto 0px;
-        height: 300px;
+        width: 360px;
+        width: 100%;
+        margin: auto auto;
+        height: 500px;
         display: grid;
         place-items: center;
     }
@@ -242,7 +243,7 @@
     .bonus1 {
         min-width: 380px;
         margin: 12px auto;
-        width: 9;
+        width: 390px;
         display: grid;
         place-items: center;
     }
@@ -338,7 +339,7 @@
         border-radius: 16px;
     }
     .bonus3 {
-        min-width: 390px;
+        width: 360px;
         width: 90%;
         margin: 24px auto;
         display: flex;
@@ -378,7 +379,7 @@
     }
 
     .bonus3-right>img {
-        width: 380px;
+        width: 370px;
         height: 320px;
     }
 
